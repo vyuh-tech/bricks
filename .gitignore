@@ -15,3 +15,4 @@ pubspec_overrides.yaml
 .next/**
 .changeset/*.md
 !.changeset/README.md
+_tester/test

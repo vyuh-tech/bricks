@@ -15,13 +15,13 @@ bricks:
 
   vyuh_init:
     git:
-      url: https://github.com/vyuh-tech/vyuh
-      path: bricks/vyuh_init
+      url: https://github.com/vyuh-tech/bricks
+      path: vyuh_init
   vyuh_feature:
     git:
-      url: https://github.com/vyuh-tech/vyuh
-      path: bricks/vyuh_feature
+      url: https://github.com/vyuh-tech/bricks
+      path: vyuh_feature
   vyuh_feature_sanity_schema:
     git:
-      url: https://github.com/vyuh-tech/vyuh
-      path: bricks/vyuh_feature_sanity_schema
+      url: https://github.com/vyuh-tech/bricks
+      path: vyuh_feature_sanity_schema
