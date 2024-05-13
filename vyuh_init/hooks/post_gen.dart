@@ -79,6 +79,16 @@ Future<void> run(HookContext context) async {
           ],
           workingDirectory: '$appName/apps',
         );
+
+        await Process.run(
+          'pnpm',
+          [
+            'add',
+            ...('@vyuh/sanity-schema-core @vyuh/sanity-schema-system'
+                .split(' ')),
+          ],
+          workingDirectory: '$appName/apps/$studioName',
+        );
       },
     );
   }
