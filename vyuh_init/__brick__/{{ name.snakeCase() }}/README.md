@@ -2,6 +2,8 @@
 
 {{ description }}
 
+> This app is powered by the [Vyuh Framework](https://vyuh.tech).
+
 ## Technologies at play
 
 - Dart
@@ -11,9 +13,8 @@
 
 ## Getting Started
 
-- All apps are in the `/apps` directory
-  - Create your new Flutter app here using the `flutter create` command
-  - If using the Sanity CMS, create a new Sanity Studio app here using the
-    `pnpm dlx create-sanity@latest` command
+- All apps are in the `/apps` directory. This includes the Flutter App and the
+  Sanity Studio (if using the CMS)
 - All plugins are in the `/plugins` directory
 - All features are in the `/features` directory
+- All shared packages are in the `/packages` directory
