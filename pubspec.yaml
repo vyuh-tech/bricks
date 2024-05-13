@@ -1,0 +1,8 @@
+name: bricks
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  melos: ^4.1.0

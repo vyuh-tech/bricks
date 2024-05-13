@@ -16,3 +16,4 @@ pubspec_overrides.yaml
 .changeset/*.md
 !.changeset/README.md
 _tester/test
+*.lock

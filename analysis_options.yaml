@@ -1,0 +1,10 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - '*/__brick__/**'
+
+linter:
+  rules:
+    - directives_ordering
+

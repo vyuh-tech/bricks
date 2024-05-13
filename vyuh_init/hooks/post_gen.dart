@@ -25,6 +25,17 @@ Future<void> run(HookContext context) async {
         ],
         workingDirectory: '$appName/apps',
       );
+
+      await Process.run(
+        'flutter',
+        [
+          'pub',
+          'add',
+          ...'sanity_client vyuh_core vyuh_extension_content vyuh_feature_system vyuh_feature_developer mobx flutter_mobx'
+              .split(' '),
+        ],
+        workingDirectory: '$appName/apps/${name.snakeCase}',
+      );
     },
   );
 
