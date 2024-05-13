@@ -1,7 +1,7 @@
 #!/usr/bin/env just --justfile
 export PATH := "./node_modules/.bin:" + env_var('PATH')
 
-gen-feature_sample: (_generate-json "features/feature_counter" "watch")
+gen-feature_counter: (_generate-json "features/feature_counter" "watch")
 
 sync-npm:
     syncpack fix-mismatches format
