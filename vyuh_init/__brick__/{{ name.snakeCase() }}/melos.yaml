@@ -6,6 +6,7 @@ packages:
   - plugins/*
   - features/*
   - features/*/*
+  - packages/*
   - apps/*
 
 ide:
