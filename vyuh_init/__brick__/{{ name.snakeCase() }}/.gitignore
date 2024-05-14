@@ -11,4 +11,6 @@ pubspec_overrides.yaml
 .flutter-plugins
 .flutter-plugins-dependencies
 *.iml
-bricks/*.lock
+*.lock
+mason-lock.json
+.mason
