@@ -1,1 +1,1 @@
-# "{{ name.paramCase() }}-schema"
+# {{ name.paramCase() }}

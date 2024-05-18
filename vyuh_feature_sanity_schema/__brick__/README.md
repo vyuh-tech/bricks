@@ -1,6 +1,6 @@
-# @vyuh/sanity-schema-forms
+# {{ name.paramCase() }}
 
-This package contains the Sanity.io schemas for Forms to use with the
+This package contains the Sanity.io schemas for configuring your feature on the CMS
 [Vyuh Framework](https://vyuh.tech).
 
 ## Getting Started
