@@ -13,15 +13,15 @@ dependencies:
   json_annotation: ^4.8.1
   mobx: ^2.3.0+1
   flutter_mobx: ^2.2.0+2
-  flutter_sanity_portable_text: ^1.0.0-beta.1
-  vyuh_core: ^1.0.0-beta.1
-  vyuh_feature_system: ^1.0.0-beta.1
-  vyuh_extension_content: ^1.0.0-beta.1
+  flutter_sanity_portable_text: ^1.0.0
+  vyuh_core: ^1.0.0
+  vyuh_feature_system: ^1.0.0
+  vyuh_extension_content: ^1.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.0
+  flutter_lints: ^4.0.0
   build_runner: ^2.4.6
   json_serializable: ^6.7.1
 
