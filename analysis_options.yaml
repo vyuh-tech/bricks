@@ -7,4 +7,6 @@ analyzer:
 linter:
   rules:
     - directives_ordering
+    - always_use_package_imports
+    - require_trailing_commas
 
