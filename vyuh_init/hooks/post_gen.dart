@@ -31,7 +31,7 @@ Future<void> run(HookContext context) async {
         [
           'pub',
           'add',
-          ...'sanity_client vyuh_core vyuh_extension_content vyuh_feature_system vyuh_feature_developer mobx flutter_mobx'
+          ...'sanity_client vyuh_core vyuh_extension_content vyuh_feature_system vyuh_feature_developer vyuh_plugin_content_provider_sanity mobx flutter_mobx'
               .split(' '),
         ],
         workingDirectory: '$appName/apps/${name.snakeCase}',
@@ -84,7 +84,7 @@ Future<void> run(HookContext context) async {
           'pnpm',
           [
             'add',
-            ...('@vyuh/sanity-schema-core @vyuh/sanity-schema-system'
+            ...('@vyuh/sanity-schema-core @vyuh/sanity-schema-system @vyuh/sanity-plugin-structure'
                 .split(' ')),
           ],
           workingDirectory: '$appName/apps/$studioName',
