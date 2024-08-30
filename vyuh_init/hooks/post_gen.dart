@@ -18,7 +18,7 @@ Future<void> run(HookContext context) async {
         'flutter',
         [
           'create',
-          '${name.snakeCase}',
+          name.snakeCase,
           '--template=app',
           '--platforms=ios,android,web',
           '--description=$description',
@@ -35,6 +35,18 @@ Future<void> run(HookContext context) async {
               .split(' '),
         ],
         workingDirectory: '$appName/apps/${name.snakeCase}',
+      );
+    },
+  );
+
+  await _trackOperation(
+    context,
+    startMessage: 'Activating Melos globally',
+    endMessage: 'Melos activated globally',
+    operation: () async {
+      await Process.run(
+        'dart',
+        ['pub', 'global', 'activate', 'melos'],
       );
     },
   );
@@ -73,9 +85,9 @@ Future<void> run(HookContext context) async {
             '--visibility',
             'public',
             '--create-project',
-            '$studioName',
+            studioName,
             '--output-path',
-            '$studioName',
+            studioName,
           ],
           workingDirectory: '$appName/apps',
         );

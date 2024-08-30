@@ -15,5 +15,9 @@ pubspec_overrides.yaml
 .next/**
 .changeset/*.md
 !.changeset/README.md
-_tester/test
 *.lock
+
+# Tester
+_tester
+!_tester/mason.yaml
+
