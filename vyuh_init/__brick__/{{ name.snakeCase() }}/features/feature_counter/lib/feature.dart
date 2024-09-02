@@ -35,22 +35,43 @@ class _CounterState extends State<_Counter> {
     return Scaffold(
       appBar: AppBar(title: const Text('Counter')),
       body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          const Text(
-            'Number of Button presses',
-            textAlign: TextAlign.center,
+          Card(
+            child: ListTile(
+              leading: const Icon(
+                Icons.code,
+                size: 48,
+              ),
+              trailing: const Icon(Icons.chevron_right),
+              title: const Text('Developer Tools'),
+              subtitle: const Text('An X-ray vision of the Vyuh App'),
+              onTap: () => vyuh.router.push('/developer'),
+            ),
           ),
-          Observer(
-              builder: (_) => Text(
-                    '${counter.value}',
-                    style: Theme.of(context)
-                        .textTheme
-                        .displayLarge
-                        ?.apply(fontFamily: 'Courier New', fontWeightDelta: 2),
-                    textAlign: TextAlign.center,
-                  )),
+          Expanded(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                const Text(
+                  'Number of Button presses',
+                  textAlign: TextAlign.center,
+                ),
+                Observer(
+                    builder: (_) => Text(
+                          '${counter.value}',
+                          style: Theme.of(context)
+                              .textTheme
+                              .displayLarge
+                              ?.apply(
+                                  fontFamily: 'Courier New',
+                                  fontWeightDelta: 2),
+                          textAlign: TextAlign.center,
+                        )),
+              ],
+            ),
+          ),
         ],
       ),
       floatingActionButton: IconButton.filled(
