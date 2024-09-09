@@ -1,7 +1,7 @@
 import 'package:args/command_runner.dart';
 import 'package:mason/mason.dart';
 import 'package:meta/meta.dart';
-import 'package:vyuh_cli/src/commands/create/commands/flutter_app/commands.dart';
+import 'package:vyuh_cli/src/commands/create/commands/commands.dart';
 import 'package:vyuh_cli/src/commands/create/utils/utils.dart';
 
 class CreateCommand extends Command<int> {
@@ -10,9 +10,15 @@ class CreateCommand extends Command<int> {
     @visibleForTesting MasonGeneratorFromBundle? generatorFromBundle,
     @visibleForTesting MasonGeneratorFromBrick? generatorFromBrick,
   }) {
-    // vyuh create flutter_app <args>
     addSubcommand(
       CreateFlutterApp(
+        logger: logger,
+        generatorFromBundle: generatorFromBundle,
+        generatorFromBrick: generatorFromBrick,
+      ),
+    );
+    addSubcommand(
+      CreateFeature(
         logger: logger,
         generatorFromBundle: generatorFromBundle,
         generatorFromBrick: generatorFromBrick,
