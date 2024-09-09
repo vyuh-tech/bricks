@@ -13,8 +13,8 @@ const _defaultOrgName = 'com.example.vyuh';
 const _defaultDescription = 'A Vyuh Flutter project created by Vyuh CLI.';
 const _defaultCMS = 'sanity';
 
-abstract class FlutterAppSubCommand extends Command<int> {
-  FlutterAppSubCommand({
+abstract class ProjectSubCommand extends Command<int> {
+  ProjectSubCommand({
     required this.logger,
     @visibleForTesting required MasonGeneratorFromBundle? generatorFromBundle,
     @visibleForTesting required MasonGeneratorFromBrick? generatorFromBrick,
@@ -166,7 +166,7 @@ abstract class FlutterAppSubCommand extends Command<int> {
   }
 }
 
-mixin OrgName on FlutterAppSubCommand {
+mixin OrgName on ProjectSubCommand {
   String get orgName {
     final orgName = argResults['org-name'] as String? ?? _defaultOrgName;
     _validateOrgName(orgName);

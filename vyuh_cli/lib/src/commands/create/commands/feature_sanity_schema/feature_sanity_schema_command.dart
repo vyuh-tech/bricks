@@ -16,5 +16,5 @@ class CreateFeatureSanitySchemaCommand extends FeatureSanitySchemaSubCommand {
   String get description => 'A Vyuh feature Sanity schema created by Vyuh CLI.';
 
   @override
-  Template get template => VyuhFeatureSanitySchemaTemplate();
+  Template get template => FeatureSanitySchemaTemplate();
 }

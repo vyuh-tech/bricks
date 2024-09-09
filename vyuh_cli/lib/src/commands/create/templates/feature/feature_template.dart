@@ -4,12 +4,12 @@ import 'package:mason/mason.dart';
 import 'package:vyuh_cli/src/commands/create/templates/index.dart';
 import 'package:vyuh_cli/src/commands/create/utils/utils.dart';
 
-class VyuhFlutterAppTemplate extends Template {
-  VyuhFlutterAppTemplate()
+class FeatureTemplate extends Template {
+  FeatureTemplate()
       : super(
-          name: 'app',
-          bundle: vyuhInitBundle,
-          help: 'Generate a Vyuh Flutter application.',
+          name: 'feature',
+          bundle: vyuhFeatureBundle,
+          help: 'Generate a Vyuh Feature',
         );
 
   @override
@@ -17,7 +17,7 @@ class VyuhFlutterAppTemplate extends Template {
     templateSummary(
       logger: logger,
       outputDir: outputDir,
-      message: 'Created a Vyuh App! 🚀',
+      message: 'Created a Vyuh Feature! 🚀',
     );
   }
 }

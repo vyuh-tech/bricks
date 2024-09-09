@@ -11,7 +11,7 @@ class CreateCommand extends Command<int> {
     @visibleForTesting MasonGeneratorFromBrick? generatorFromBrick,
   }) {
     addSubcommand(
-      CreateFlutterAppCommand(
+      CreateProjectCommand(
         logger: logger,
         generatorFromBundle: generatorFromBundle,
         generatorFromBrick: generatorFromBrick,

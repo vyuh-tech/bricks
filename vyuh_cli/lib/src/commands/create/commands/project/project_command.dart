@@ -1,8 +1,8 @@
-import 'package:vyuh_cli/src/commands/create/commands/flutter_app/index.dart';
+import 'package:vyuh_cli/src/commands/create/commands/project/index.dart';
 import 'package:vyuh_cli/src/commands/create/templates/index.dart';
 
-class CreateFlutterAppCommand extends FlutterAppSubCommand with OrgName {
-  CreateFlutterAppCommand({
+class CreateProjectCommand extends ProjectSubCommand with OrgName {
+  CreateProjectCommand({
     required super.logger,
     required super.generatorFromBundle,
     required super.generatorFromBrick,
@@ -15,7 +15,7 @@ class CreateFlutterAppCommand extends FlutterAppSubCommand with OrgName {
   }
 
   @override
-  String get name => 'flutter_app';
+  String get name => 'project';
 
   @override
   String get description => 'A Vyuh Flutter project created by Vyuh CLI.';
@@ -33,5 +33,5 @@ class CreateFlutterAppCommand extends FlutterAppSubCommand with OrgName {
   }
 
   @override
-  Template get template => VyuhFlutterAppTemplate();
+  Template get template => ProjectTemplate();
 }
