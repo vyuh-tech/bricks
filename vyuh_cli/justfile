@@ -1,6 +1,6 @@
 #!/usr/bin/env just --justfile
 
-# Note: Make sure to run the above command from the root of the project if the bricks are modified.
+# Note: Make sure to re-genrate bundles if the bricks are modified.
 
 # Bundle vyuh_init template
 bundle-init:
