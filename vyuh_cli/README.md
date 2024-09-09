@@ -1,4 +1,17 @@
+<p align="center">
+  <a href="https://vyuh.tech">
+    <img src="_images/logo.png" alt="Vyuh Logo" height="128" />
+  </a>
+  <h1 align="center">Vyuh Framework</h1>
+  <p align="center">Build Modular, Scalable, CMS-driven Flutter Apps</p>
+  <p align="center">
+    <a href="https://docs.vyuh.tech">Docs</a> |
+    <a href="https://vyuh.tech">Website</a>
+  </p>
+</p>
+
 ## vyuh_cli
+
 A command-line interface for the Vyuh Framework to generate Vyuh projects from predefined templates.
 
 ## Documentation 📝
@@ -6,7 +19,6 @@ A command-line interface for the Vyuh Framework to generate Vyuh projects from p
 For official documentation, please visit https://docs.vyuh.tech/
 
 ## Quick Start 🚀
-
 
 ### Installing 🧑‍💻
 
@@ -28,23 +40,102 @@ When that is not possible (eg: CI environments), run `vyuh` commands via:
 dart pub global run vyuh_cli:vyuh <command> <args>
 ```
 
-## Usage
+### Commands ✨
+
+### [`vyuh create`](docs_link)
+
+Create a Vyuh project in seconds based on the predefined template. Each template has a corresponding sub-command (
+e.g.,`vyuh create project`).
+
+<img width="851" alt="image" src="_images/vyuh_cli.png">
 
 ```sh
-# Create a new Vyuh project
-$ vyuh create flutter_app supper_app
+Creates Vyuh projects, features, and sanity schemas.
 
-# Add feature to existing Vyuh project
-$ vyuh_cli create feature auth
+Usage: vyuh create <subcommand> <project-name> [arguments]
+-h, --help    Print this usage information.
 
-# Add Sanity feature to existing Vyuh project
-$ vyuh_cli create sanity-feature auth
+Available subcommands:
+  feature                 A Vyuh feature created by Vyuh CLI.
+  feature-sanity-schema   A Vyuh feature Sanity schema created by Vyuh CLI.
+  project                 A Vyuh Flutter project created by Vyuh CLI.
 
-# Show CLI version
-$ vyuh_cli --version
-
-# Show usage help
-$ vyuh_cli --help
+Run "vyuh help" to see global options.
 ```
+
+#### Usage
+
+`vyuh create project <project-name>`
+
+```sh
+# Create a new Vyuh project named super_app
+
+vyuh create project super_app
+
+```
+
+```sh
+A Vyuh Flutter project created by Vyuh CLI.
+
+Usage: vyuh create project <project-name> [arguments]
+-h, --help                Print this usage information.
+-o, --output-directory    The desired output directory when creating a new project.
+    --description         The description for this new project.
+                          (defaults to "A Vyuh Flutter project created by Vyuh CLI.")
+    --cms                 The content management system for this new project.
+                          (defaults to "sanity")
+    --org-name            The organization for this new project.
+                          (defaults to "com.example.vyuh")
+    --application-id      The bundle identifier on iOS or application id on Android. (defaults to <org-name>.<project-name>)
+```
+
+`vyuh create feature <feature-name>`
+
+```sh
+# Create a new Vyuh feature named super_feature
+vyuh create feature super_feature
+```
+
+```sh
+A Vyuh feature created by Vyuh CLI.
+
+Usage: vyuh create feature <feature-name> [arguments]
+-h, --help                Print this usage information.
+-o, --output-directory    The desired output directory when creating a new feature.
+```
+
+`vyuh create feature-sanity-schema <feature-name>`
+
+```sh
+# Create a new Vyuh feature sanity schema named super_feature_sanity_schema
+vyuh create feature-sanity-schema super_schema
+```
+
+```sh
+A Vyuh feature Sanity schema created by Vyuh CLI.
+
+Usage: vyuh create feature-sanity-schema <feature-name> [arguments]
+-h, --help                Print this usage information.
+-o, --output-directory    The desired output directory when creating a new feature.
+```
+
+## Contact
+
+Follow us, stay up to date or reach out on:
+
+- [@vyuh_tech](https://x.com/vyuh_tech)
+- [LinkedIn](https://www.linkedin.com/company/vyuh-tech)
+- [Discord](https://discord.gg/b49sbjqszG)
+- [Email](mailto:ask@vyuh.tech)
+
+## License
+
+[FSL Licensed](LICENSE).
+
+[docs_link]: https://docs.vyuh.tech/
+
+
+
+
 
 

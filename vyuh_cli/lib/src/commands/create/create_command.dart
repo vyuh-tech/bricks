@@ -38,7 +38,7 @@ class CreateCommand extends Command<int> {
 
   @override
   String get description =>
-      'Creates a new flutter project in the specified directory.';
+      'Creates Vyuh projects, features, and sanity schemas.';
 
   @override
   String get name => 'create';
