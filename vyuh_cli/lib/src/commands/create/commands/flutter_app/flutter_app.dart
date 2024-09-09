@@ -1,5 +1,5 @@
-import 'package:vyuh_cli/src/commands/create/commands/flutter_app/commands.dart';
-import 'package:vyuh_cli/src/commands/create/templates/templates.dart';
+import 'package:vyuh_cli/src/commands/create/commands/flutter_app/index.dart';
+import 'package:vyuh_cli/src/commands/create/templates/index.dart';
 
 class CreateFlutterApp extends FlutterAppSubCommand with OrgName {
   CreateFlutterApp({

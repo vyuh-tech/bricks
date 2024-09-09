@@ -1,7 +1,7 @@
 import 'package:args/command_runner.dart';
 import 'package:mason/mason.dart';
 import 'package:meta/meta.dart';
-import 'package:vyuh_cli/src/commands/create/commands/commands.dart';
+import 'package:vyuh_cli/src/commands/create/commands/index.dart';
 import 'package:vyuh_cli/src/commands/create/utils/utils.dart';
 
 class CreateCommand extends Command<int> {

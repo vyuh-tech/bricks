@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:mason/mason.dart';
 import 'package:path/path.dart' as path;
-import 'package:vyuh_cli/src/commands/create/templates/templates.dart';
+import 'package:vyuh_cli/src/commands/create/templates/index.dart';
 import 'package:vyuh_cli/src/logger_extension.dart';
 
 class VyuhFeatureTemplate extends Template {
