@@ -9,10 +9,6 @@ packages:
   - packages/*
   - apps/*
 
-ide:
-  intellij:
-    moduleNamePrefix: ''
-
 command:
   version:
     workspaceChangelog: false
