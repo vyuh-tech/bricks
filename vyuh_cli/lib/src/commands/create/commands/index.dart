@@ -1,2 +1,3 @@
-export 'feature/feature.dart';
-export 'flutter_app/flutter_app.dart';
+export 'feature/index.dart';
+export 'feature_sanity_schema/index.dart';
+export 'flutter_app/index.dart';

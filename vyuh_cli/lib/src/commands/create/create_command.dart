@@ -11,14 +11,21 @@ class CreateCommand extends Command<int> {
     @visibleForTesting MasonGeneratorFromBrick? generatorFromBrick,
   }) {
     addSubcommand(
-      CreateFlutterApp(
+      CreateFlutterAppCommand(
         logger: logger,
         generatorFromBundle: generatorFromBundle,
         generatorFromBrick: generatorFromBrick,
       ),
     );
     addSubcommand(
-      CreateFeature(
+      CreateFeatureCommand(
+        logger: logger,
+        generatorFromBundle: generatorFromBundle,
+        generatorFromBrick: generatorFromBrick,
+      ),
+    );
+    addSubcommand(
+      CreateFeatureSanitySchemaCommand(
         logger: logger,
         generatorFromBundle: generatorFromBundle,
         generatorFromBrick: generatorFromBrick,

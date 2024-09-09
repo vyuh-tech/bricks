@@ -11,7 +11,7 @@ To learn more, visit https://docs.vyuh.tech/intro/mason-setup
 ```sh
 mason bundle vyuh_init -t dart -o vyuh_cli/lib/src/commands/create/templates/vyuh_flutter_app
 mason bundle vyuh_feature -t dart -o vyuh_cli/lib/src/commands/create/templates/vyuh_feature
-mason bundle vyuh_sanity_feature -t dart -o vyuh_cli/lib/src/commands/create/templates/vyuh_sanity_feature
+mason bundle vyuh_feature_sanity_schema -t dart -o vyuh_cli/lib/src/commands/create/templates/vyuh_feature_sanity_schema
 ```
 
 Note: Make sure to run the above command from the root of the project if the bricks are modified.

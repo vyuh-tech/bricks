@@ -1,2 +1,2 @@
-export 'feature.dart';
-export 'feature_app_subcommand.dart';
+export 'feature_command.dart';
+export 'feature_subcommand.dart';
