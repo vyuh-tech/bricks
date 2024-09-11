@@ -16,11 +16,17 @@ abstract class FeatureSanitySchemaSubCommand extends Command<int> {
     @visibleForTesting required MasonGeneratorFromBrick? generatorFromBrick,
   })  : _generatorFromBundle = generatorFromBundle ?? MasonGenerator.fromBundle,
         _generatorFromBrick = generatorFromBrick ?? MasonGenerator.fromBrick {
-    argParser.addOption(
-      'output-directory',
-      abbr: 'o',
-      help: 'The desired output directory when creating a new feature.',
-    );
+    argParser
+      ..addOption(
+        'output-directory',
+        abbr: 'o',
+        help: 'The desired output directory when creating a new feature.',
+      )
+      ..addOption(
+        'cms',
+        help: 'The content management system for this new schema.',
+        defaultsTo: defaultCMS,
+      );
   }
 
   final Logger logger;
@@ -39,6 +45,16 @@ abstract class FeatureSanitySchemaSubCommand extends Command<int> {
     final args = argResults.rest;
     _validateProjectName(args);
     return args.first;
+  }
+
+  String get cms {
+    final cms = argResults['cms'] as String? ?? defaultCMS;
+    if (cms != defaultCMS) {
+      usageException(
+        'The CMS "$cms" is not supported. Only "$defaultCMS" is supported at this time.',
+      );
+    }
+    return cms;
   }
 
   Template get template;
@@ -125,9 +141,11 @@ abstract class FeatureSanitySchemaSubCommand extends Command<int> {
   @mustCallSuper
   Map<String, dynamic> getTemplateVars() {
     final featureName = this.featureName;
+    final cms = this.cms;
 
     return <String, dynamic>{
       'name': featureName,
+      'cms': cms,
     };
   }
 }

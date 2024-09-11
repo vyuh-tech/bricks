@@ -10,11 +10,13 @@ typedef MasonGeneratorFromBrick = Future<MasonGenerator> Function(Brick);
 final RegExp identifierRegExp = RegExp('[a-z_][a-z0-9_]*');
 final RegExp orgNameRegExp = RegExp(r'^[a-zA-Z][\w-]*(\.[a-zA-Z][\w-]*)+$');
 
+const String defaultCMS = 'sanity';
 const String vyuhInfoText = '''
 
 +----------------------------------------------------+
 | Looking for more features?                         |
-| We have an enterprise-grade solutions!             |
+|----------------------------------------------------|
+| We have an enterprise-grade solution!              |
 |                                                    |
 | For more info visit:                               |
 | https://vyuh.tech                                  |

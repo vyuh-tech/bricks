@@ -7,7 +7,7 @@ import 'package:vyuh_cli/src/commands/create/utils/utils.dart';
 class FeatureSanitySchemaTemplate extends Template {
   FeatureSanitySchemaTemplate()
       : super(
-          name: 'feature-sanity-schema',
+          name: 'schema',
           bundle: vyuhFeatureSanitySchemaBundle,
           help: 'Generate a Vyuh feature Sanity schema.',
         );

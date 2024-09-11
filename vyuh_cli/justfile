@@ -11,10 +11,10 @@ bundle-feature:
     mason bundle ../vyuh_feature -t dart -o lib/src/commands/create/templates/feature
 
 # Bundle vyuh_feature_sanity_schema template
-bundle-feature-sanity:
-    mason bundle ../vyuh_feature_sanity_schema -t dart -o lib/src/commands/create/templates/feature_sanity_schema
+bundle-feature-sanity-schema:
+    mason bundle ../vyuh_feature_sanity_schema -t dart -o lib/src/commands/create/templates/schema
 
 # Bundle all templates
-bundle-all: bundle-init bundle-feature bundle-feature-sanity
+bundle-all: bundle-init bundle-feature bundle-feature-sanity-schema
     @echo "All templates have been bundled successfully!"
 

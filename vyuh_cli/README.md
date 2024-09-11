@@ -50,14 +50,14 @@ e.g.,`vyuh create project`).
 <img width="851" alt="image" src="_images/vyuh_cli.png">
 
 ```sh
-Creates Vyuh projects, features, and sanity schemas.
+Creates Vyuh projects, features, and CMS schemas.
 
 Usage: vyuh create <subcommand> <project-name> [arguments]
 -h, --help    Print this usage information.
 
 Available subcommands:
   feature                 A Vyuh feature created by Vyuh CLI.
-  feature-sanity-schema   A Vyuh feature Sanity schema created by Vyuh CLI.
+  schema                  A Vyuh feature CMS schema created by Vyuh CLI.
   project                 A Vyuh Flutter project created by Vyuh CLI.
 
 Run "vyuh help" to see global options.
@@ -104,19 +104,21 @@ Usage: vyuh create feature <feature-name> [arguments]
 -o, --output-directory    The desired output directory when creating a new feature.
 ```
 
-`vyuh create feature-sanity-schema <feature-name>`
+`vyuh create schema <feature-name>`
 
 ```sh
-# Create a new Vyuh feature sanity schema named super_feature_sanity_schema
-vyuh create feature-sanity-schema super_schema
+# Create a new Vyuh feature CMS schema named super_feature_schema
+vyuh create schema super_schema
 ```
 
 ```sh
-A Vyuh feature Sanity schema created by Vyuh CLI.
+A Vyuh feature CMS schema created by Vyuh CLI.
 
-Usage: vyuh create feature-sanity-schema <feature-name> [arguments]
+Usage: vyuh create schema <feature-name> [arguments]
 -h, --help                Print this usage information.
 -o, --output-directory    The desired output directory when creating a new feature.
+    --cms                 The content management system for this new schema.
+                          (defaults to "sanity")
 ```
 
 ## Contact

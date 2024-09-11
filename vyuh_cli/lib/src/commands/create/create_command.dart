@@ -25,7 +25,7 @@ class CreateCommand extends Command<int> {
       ),
     );
     addSubcommand(
-      CreateFeatureSanitySchemaCommand(
+      CreateSchemaCommand(
         logger: logger,
         generatorFromBundle: generatorFromBundle,
         generatorFromBrick: generatorFromBrick,
@@ -37,8 +37,7 @@ class CreateCommand extends Command<int> {
   String get summary => '$invocation\n$description';
 
   @override
-  String get description =>
-      'Creates Vyuh projects, features, and sanity schemas.';
+  String get description => 'Creates Vyuh projects, features, and CMS schemas.';
 
   @override
   String get name => 'create';

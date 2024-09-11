@@ -11,7 +11,6 @@ import 'package:vyuh_cli/src/commands/create/utils/utils.dart';
 
 const _defaultOrgName = 'com.example.vyuh';
 const _defaultDescription = 'A Vyuh Flutter project created by Vyuh CLI.';
-const _defaultCMS = 'sanity';
 
 abstract class ProjectSubCommand extends Command<int> {
   ProjectSubCommand({
@@ -35,7 +34,7 @@ abstract class ProjectSubCommand extends Command<int> {
       ..addOption(
         'cms',
         help: 'The content management system for this new project.',
-        defaultsTo: _defaultCMS,
+        defaultsTo: defaultCMS,
       );
 
     if (this is OrgName) {
@@ -68,7 +67,7 @@ abstract class ProjectSubCommand extends Command<int> {
 
   String get projectDescription => argResults['description'] as String? ?? '';
 
-  String get cms => argResults['cms'] as String? ?? '';
+  String get cms => argResults['cms'] as String? ?? defaultCMS;
 
   Template get template;
 
