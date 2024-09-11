@@ -1,5 +1,6 @@
 # Vyuh Bricks
-Bricks to scaffold a Vyuh Project, Feature or Schema. 
+
+Bricks to scaffold a Vyuh Project, Feature or Schema.
 
 Generate all the boring stuff so you can start with the more interesting pieces of your App Development!
 

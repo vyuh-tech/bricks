@@ -3,6 +3,7 @@ include: package:flutter_lints/flutter.yaml
 analyzer:
   exclude:
     - '*/__brick__/**'
+    - "**/version.dart"
 
 linter:
   rules:

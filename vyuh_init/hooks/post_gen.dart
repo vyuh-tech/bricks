@@ -7,8 +7,7 @@ import 'commands/melos_command.dart';
 import 'commands/sanity_command.dart';
 
 Future<void> run(HookContext context) async {
-  final String cms = context.vars['cms'];
-
+  final cms = context.vars['cms'];
   final commands = [
     FlutterCommand(),
     MelosCommand(),

@@ -1,4 +1,4 @@
-name: {{ name.snakeCase() }}
+name: {{ name.snakeCase() }}_workspace
 description: {{ description }}
 
 
@@ -8,10 +8,6 @@ packages:
   - features/*/*
   - packages/*
   - apps/*
-
-ide:
-  intellij:
-    moduleNamePrefix: ''
 
 command:
   version:
