@@ -1,0 +1,8 @@
+name: bricks_and_cli
+
+packages:
+  - vyuh_cli
+
+ide:
+  intellij:
+    moduleNamePrefix: ''

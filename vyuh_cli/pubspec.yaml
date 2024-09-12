@@ -1,5 +1,5 @@
 name: vyuh_cli
-description: A command-line interface for the Vyuh Framework to generate Vyuh projects from predefined templates.
+description: A command-line interface for the Vyuh Framework to generate Vyuh projects, features and schemas.
 version: 0.0.1
 homepage: https://vyuh.tech
 repository: https://github.com/vyuh-tech/bricks/tree/main/packages/vyuh_cli

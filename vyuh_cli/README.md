@@ -10,17 +10,17 @@
   </p>
 </p>
 
-## vyuh_cli
+# vyuh_cli
 
 A command-line interface for the Vyuh Framework to generate Vyuh projects from predefined templates.
 
-## Documentation 📝
+# Documentation 📝
 
 For official documentation, please visit https://docs.vyuh.tech/
 
-## Quick Start 🚀
+# Quick Start 🚀
 
-### Installing 🧑‍💻
+## Installing 🧑‍💻
 
 ```sh
 dart pub global activate vyuh
@@ -32,7 +32,7 @@ Or install a [specific version](https://pub.dev/packages/vyuh_cli/versions) usin
 dart pub global activate vyuh <version>
 ```
 
-If you haven't already, you might need to [set up your path][path_setup_link].
+> If you haven't already, you might need to [set up your path](https://dart.dev/tools/pub/cmd/pub-global#running-a-script-from-your-path).
 
 When that is not possible (eg: CI environments), run `vyuh` commands via:
 
@@ -40,9 +40,9 @@ When that is not possible (eg: CI environments), run `vyuh` commands via:
 dart pub global run vyuh_cli:vyuh <command> <args>
 ```
 
-### Commands ✨
+# Commands ✨
 
-### [`vyuh create`](docs_link)
+## [`vyuh create`](docs_link)
 
 Create a Vyuh project in seconds based on the predefined template. Each template has a corresponding sub-command (
 e.g.,`vyuh create project`).
@@ -63,7 +63,9 @@ Available subcommands:
 Run "vyuh help" to see global options.
 ```
 
-#### Usage
+## Usage
+
+### Create projects
 
 `vyuh create project <project-name>`
 
@@ -89,6 +91,8 @@ Usage: vyuh create project <project-name> [arguments]
     --application-id      The bundle identifier on iOS or application id on Android. (defaults to <org-name>.<project-name>)
 ```
 
+### Create features
+
 `vyuh create feature <feature-name>`
 
 ```sh
@@ -103,6 +107,8 @@ Usage: vyuh create feature <feature-name> [arguments]
 -h, --help                Print this usage information.
 -o, --output-directory    The desired output directory when creating a new feature.
 ```
+
+### Create schemas
 
 `vyuh create schema <feature-name>`
 
@@ -121,7 +127,7 @@ Usage: vyuh create schema <feature-name> [arguments]
                           (defaults to "sanity")
 ```
 
-## Contact
+# Contact
 
 Follow us, stay up to date or reach out on:
 
@@ -135,9 +141,3 @@ Follow us, stay up to date or reach out on:
 [FSL Licensed](LICENSE).
 
 [docs_link]: https://docs.vyuh.tech/
-
-
-
-
-
-
