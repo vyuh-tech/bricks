@@ -13,7 +13,7 @@ topics:
   - flutter
 
 screenshots:
-  - description: Vyuh CLI
+  - description: The Vyuh CLI in action showing the creation of a new Vyuh project.
     path: _images/vyuh_cli.png
 
 environment:
