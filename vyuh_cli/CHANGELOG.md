@@ -1,3 +1,8 @@
+## 0.0.2+1
+
+ - **FIX**: updated readme to use hot-linked images.
+ - **FIX**: updated pubspec.
+
 ## 0.0.2
 
  - **REFACTOR**(vyuh_cli): Renamed command to `schema` from ``feature-sanity-schema`.

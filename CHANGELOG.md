@@ -15,6 +15,28 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`vyuh_cli` - `v0.0.2+1`](#vyuh_cli---v0021)
+
+---
+
+#### `vyuh_cli` - `v0.0.2+1`
+
+ - **FIX**: updated readme to use hot-linked images.
+ - **FIX**: updated pubspec.
+
+
+## 2024-09-12
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`vyuh_cli` - `v0.0.2`](#vyuh_cli---v002)
 
 ---
