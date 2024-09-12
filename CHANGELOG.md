@@ -15,6 +15,27 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`vyuh_cli` - `v0.0.2+2`](#vyuh_cli---v0022)
+
+---
+
+#### `vyuh_cli` - `v0.0.2+2`
+
+ - **FIX**: dart format, readme and pubspec updates.
+
+
+## 2024-09-12
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`vyuh_cli` - `v0.0.2+1`](#vyuh_cli---v0021)
 
 ---

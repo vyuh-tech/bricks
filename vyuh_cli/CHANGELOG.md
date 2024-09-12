@@ -1,3 +1,7 @@
+## 0.0.2+2
+
+ - **FIX**: dart format, readme and pubspec updates.
+
 ## 0.0.2+1
 
  - **FIX**: updated readme to use hot-linked images.
