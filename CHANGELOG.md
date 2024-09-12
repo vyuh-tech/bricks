@@ -1,4 +1,25 @@
-## 0.0.2
+# Change Log
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## 2024-09-12
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`vyuh_cli` - `v0.0.2`](#vyuh_cli---v002)
+
+---
+
+#### `vyuh_cli` - `v0.0.2`
 
  - **REFACTOR**(vyuh_cli): Renamed command to `schema` from ``feature-sanity-schema`.
  - **REFACTOR**(vyuh_cli): renamed command `flutter_app` to `project` and removed prefix from templates.
@@ -10,9 +31,3 @@
  - **DOCS**(vyuh_cli): Updated comments.
  - **DOCS**(vyuh_cli): Updated README.md, added CHANGELOG.md,LICENSE & example.
 
-## 0.0.1
-
-- First release with a set of core commands
-  - `vyuh create project`
-  - `vyuh create feature`
-  - `vyuh create schema`
