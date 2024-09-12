@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://vyuh.tech">
-    <img src="_images/logo.png" alt="Vyuh Logo" height="128" />
+    <img src="https://github.com/vyuh-tech.png" alt="Vyuh Logo" height="128" />
   </a>
   <h1 align="center">Vyuh Framework</h1>
   <p align="center">Build Modular, Scalable, CMS-driven Flutter Apps</p>
@@ -42,12 +42,12 @@ dart pub global run vyuh_cli:vyuh <command> <args>
 
 # Commands ✨
 
-## [`vyuh create`](docs_link)
+## `vyuh create`
 
 Create a Vyuh project in seconds based on the predefined template. Each template has a corresponding sub-command (
 e.g.,`vyuh create project`).
 
-<img width="851" alt="image" src="_images/vyuh_cli.png">
+<img width="851" alt="image" src="https://raw.githubusercontent.com/vyuh-tech/bricks/main/vyuh_cli/_images/vyuh_cli.png">
 
 ```sh
 Creates Vyuh projects, features, and CMS schemas.
