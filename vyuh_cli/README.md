@@ -12,7 +12,7 @@
 
 # vyuh_cli
 
-| [![vyuh_cli](https://img.shields.io/pub/v/vyuh_cli.svg?label=vyuh_cli&logo=dart&color=blue&style=for-the-badge)](https://pub.dev/packages/vyuh_cli) |
+[![vyuh_cli](https://img.shields.io/pub/v/vyuh_cli.svg?label=vyuh_cli&logo=dart&color=blue&style=for-the-badge)](https://pub.dev/packages/vyuh_cli)
 
 A command-line interface for the Vyuh Framework to generate Vyuh projects from predefined templates.
 
