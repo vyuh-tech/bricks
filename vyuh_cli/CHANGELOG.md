@@ -1,3 +1,8 @@
+## 0.0.2+3
+
+ - **FIX**(vyuh_cli): Added pre-version hook to correct `update` command messaging.
+ - **DOCS**(vyuh_cli): Updated assets and README.md.
+
 ## 0.0.2+2
 
  - **FIX**: dart format, readme and pubspec updates.

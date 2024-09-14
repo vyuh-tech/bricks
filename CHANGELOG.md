@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2024-09-14
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`vyuh_cli` - `v0.0.2+3`](#vyuh_cli---v0023)
+
+---
+
+#### `vyuh_cli` - `v0.0.2+3`
+
+ - **FIX**(vyuh_cli): Added pre-version hook to correct `update` command messaging.
+ - **DOCS**(vyuh_cli): Updated assets and README.md.
+
+
 ## 2024-09-12
 
 ### Changes
