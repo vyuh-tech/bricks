@@ -6,3 +6,15 @@ packages:
 ide:
   intellij:
     moduleNamePrefix: ''
+
+scripts:
+  update_version:
+    run: dart run tools/update_version.dart
+  version:
+    hook: pre
+    run: melos run update_version
+
+command:
+  version:
+    hooks:
+      pre: melos run update_version
