@@ -17,4 +17,4 @@ scripts:
 command:
   version:
     hooks:
-      pre: melos run update_version
+      post: melos run update_version
