@@ -1,3 +1,8 @@
+## 0.0.3
+
+ - **FIX**: made the version as a post hook as it need to run after the version command has completed.
+ - **FEAT**: updated descriptions of some commands.
+
 ## 0.0.2+3
 
  - **FIX**(vyuh_cli): Added pre-version hook to correct `update` command messaging.
