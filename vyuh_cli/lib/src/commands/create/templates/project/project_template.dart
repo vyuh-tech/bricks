@@ -9,7 +9,8 @@ class ProjectTemplate extends Template {
       : super(
           name: 'project',
           bundle: vyuhInitBundle,
-          help: 'Generate a Vyuh Flutter application.',
+          help:
+              'Generate a Vyuh Project with a Flutter Application and a Sanity Studio.',
         );
 
   @override
@@ -17,7 +18,7 @@ class ProjectTemplate extends Template {
     templateSummary(
       logger: logger,
       outputDir: outputDir,
-      message: 'Created a Vyuh App! 🚀',
+      message: 'Created a Vyuh Project! 🚀',
     );
   }
 }

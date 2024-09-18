@@ -134,13 +134,11 @@ abstract class ProjectSubCommand extends Command<int> {
   Future<int> runCreate(MasonGenerator generator, Template template) async {
     var vars = getTemplateVars();
 
-    final generateProgress = logger.progress('Bootstrapping');
     final target = DirectoryGeneratorTarget(outputDirectory);
 
     await generator.hooks.preGen(vars: vars, onVarsChanged: (v) => vars = v);
-    final files = await generator.generate(target, vars: vars, logger: logger);
+    final _ = await generator.generate(target, vars: vars, logger: logger);
     await generator.hooks.postGen(vars: vars, onVarsChanged: (v) => vars = v);
-    generateProgress.complete('Generated ${files.length} file(s)');
 
     await template.onGenerateComplete(
       logger,

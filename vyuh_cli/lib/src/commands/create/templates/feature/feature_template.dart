@@ -9,7 +9,7 @@ class FeatureTemplate extends Template {
       : super(
           name: 'feature',
           bundle: vyuhFeatureBundle,
-          help: 'Generate a Vyuh Feature',
+          help: 'Generate a Vyuh Feature as a Flutter package.',
         );
 
   @override
