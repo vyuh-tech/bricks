@@ -25,13 +25,13 @@ For official documentation, please visit https://docs.vyuh.tech/
 ## Installing 🧑‍💻
 
 ```sh
-dart pub global activate vyuh
+dart pub global activate vyuh_cli
 ```
 
 Or install a [specific version](https://pub.dev/packages/vyuh_cli/versions) using:
 
 ```sh
-dart pub global activate vyuh <version>
+dart pub global activate vyuh_cli <version>
 ```
 
 > If you haven't already, you might need to [set up your path](https://dart.dev/tools/pub/cmd/pub-global#running-a-script-from-your-path).
