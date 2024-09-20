@@ -1,3 +1,7 @@
+## 0.0.3+1
+
+ - **FIX**: updated readme with correct command.
+
 ## 0.0.3
 
  - **FIX**: made the version as a post hook as it need to run after the version command has completed.
