@@ -71,8 +71,9 @@ Run "vyuh help" to see global options.
 
 `vyuh create project <project-name>`
 
+###### Create a new Vyuh project named super_app
+
 ```sh
-# Create a new Vyuh project named super_app
 
 vyuh create project super_app
 
@@ -97,8 +98,8 @@ Usage: vyuh create project <project-name> [arguments]
 
 `vyuh create feature <feature-name>`
 
+###### Create a new Vyuh feature named super_feature
 ```sh
-# Create a new Vyuh feature named super_feature
 vyuh create feature super_feature
 ```
 
@@ -114,8 +115,8 @@ Usage: vyuh create feature <feature-name> [arguments]
 
 `vyuh create schema <feature-name>`
 
+###### Create a new Vyuh feature CMS schema named super_feature_schema
 ```sh
-# Create a new Vyuh feature CMS schema named super_feature_schema
 vyuh create schema super_schema
 ```
 
