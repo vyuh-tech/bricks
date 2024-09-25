@@ -43,5 +43,5 @@ class CreateCommand extends Command<int> {
   String get name => 'create';
 
   @override
-  String get invocation => 'vyuh create <subcommand> <name> [arguments]';
+  String get invocation => 'vyuh create <subcommand> <item-name> [arguments]';
 }

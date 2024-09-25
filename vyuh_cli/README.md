@@ -54,7 +54,7 @@ e.g.,`vyuh create project`).
 ```sh
 Creates Vyuh projects, features, and CMS schemas.
 
-Usage: vyuh create <subcommand> <project-name> [arguments]
+Usage: vyuh create <subcommand> <item-name> [arguments]
 -h, --help    Print this usage information.
 
 Available subcommands:
@@ -69,11 +69,11 @@ Run "vyuh help" to see global options.
 
 ### Create projects
 
+Creates a new Vyuh project with the given name.
+
 `vyuh create project <project-name>`
 
 ```sh
-# Create a new Vyuh project named super_app
-
 vyuh create project super_app
 
 ```
@@ -95,10 +95,11 @@ Usage: vyuh create project <project-name> [arguments]
 
 ### Create features
 
+Creates a new Vyuh feature with the given name.
+
 `vyuh create feature <feature-name>`
 
 ```sh
-# Create a new Vyuh feature named super_feature
 vyuh create feature super_feature
 ```
 
@@ -112,10 +113,11 @@ Usage: vyuh create feature <feature-name> [arguments]
 
 ### Create schemas
 
+Creates a new Vyuh feature CMS schema with the given name.
+
 `vyuh create schema <feature-name>`
 
 ```sh
-# Create a new Vyuh feature CMS schema named super_feature_schema
 vyuh create schema super_schema
 ```
 
