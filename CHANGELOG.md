@@ -15,6 +15,27 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`vyuh_cli` - `v0.0.3+3`](#vyuh_cli---v0033)
+
+---
+
+#### `vyuh_cli` - `v0.0.3+3`
+
+ - **FIX**: readme update.
+
+
+## 2024-09-25
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`vyuh_cli` - `v0.0.3+2`](#vyuh_cli---v0032)
 
 ---

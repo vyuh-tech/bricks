@@ -1,3 +1,7 @@
+## 0.0.3+3
+
+ - **FIX**: readme update.
+
 ## 0.0.3+2
 
  - **FIX**: updating readme and bundles.
