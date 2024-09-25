@@ -1,3 +1,7 @@
+## 0.0.3+2
+
+ - **FIX**: updating readme and bundles.
+
 ## 0.0.3+1
 
  - **FIX**: updated readme with correct command.
