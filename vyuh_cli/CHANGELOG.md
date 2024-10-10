@@ -1,3 +1,7 @@
+## 0.0.3+4
+
+ - **FIX**: update descriptions of commands.
+
 ## 0.0.3+3
 
  - **FIX**: readme update.
