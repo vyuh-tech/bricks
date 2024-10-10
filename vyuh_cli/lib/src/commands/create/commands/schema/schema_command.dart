@@ -12,7 +12,7 @@ class CreateSchemaCommand extends FeatureSanitySchemaSubCommand {
   String get name => 'schema';
 
   @override
-  String get description => 'A Vyuh feature CMS schema created by Vyuh CLI.';
+  String get description => 'Create a new Vyuh feature CMS schema.';
 
   @override
   Template get template => FeatureSanitySchemaTemplate();

@@ -18,7 +18,7 @@ class CreateProjectCommand extends ProjectSubCommand with OrgName {
   String get name => 'project';
 
   @override
-  String get description => 'A Vyuh Flutter project created by Vyuh CLI.';
+  String get description => 'Create a new Vyuh project in Flutter.';
 
   @override
   Map<String, dynamic> getTemplateVars() {

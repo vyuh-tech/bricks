@@ -12,7 +12,7 @@ class CreateFeatureCommand extends FeatureSubCommand {
   String get name => 'feature';
 
   @override
-  String get description => 'A Vyuh feature created by Vyuh CLI.';
+  String get description => 'Create a new Vyuh feature.';
 
   @override
   Template get template => FeatureTemplate();
